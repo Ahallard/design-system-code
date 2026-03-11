@@ -4,11 +4,7 @@
 
 $colour-Primary-100:#f32423;
 
-@mixin heading-defaults{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 600;
-    color:#c6f00c
-}
+
 
 @mixin swatch-size{
     height:115px;
@@ -143,10 +139,3 @@ h1{
     }
 }
 
-
-p{
-    background-color: orange;
-    button{
-        color:rgb(158, 212, 9);
-    }
-}
