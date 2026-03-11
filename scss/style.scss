@@ -1,0 +1,152 @@
+@use 'foundations/index' as *; 
+@use 'componets/button/button';
+@use 'componets/form inputs/inputs';
+
+$colour-Primary-100:#f32423;
+
+@mixin heading-defaults{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color:#c6f00c
+}
+
+@mixin swatch-size{
+    height:115px;
+    width:115px;
+    margin: $spacing-100;
+}
+
+body{
+    font-family: $font-sans;
+    font-size:$font-size-base;
+    color:$text-colour;
+    padding: $spacing-100;
+}
+
+h1{
+    font-family: $font-heading;
+    font-size:$font-size-1x;
+    color: $text-colour;
+    padding:$spacing-200;
+    margin-left:$spacing-400;
+}
+
+
+.swatch{
+    padding: $spacing-300;
+    display:flex;
+    flex-direction: row;
+    .primary{
+        background-color: $colour-primary;
+        @include swatch-size;
+    }
+    .secondary{
+        background-color: $colour-secondary;
+        @include swatch-size;
+    }
+    .neutral{
+        background-color: $colour-neutral;
+        @include swatch-size;
+    }
+    section{
+    padding:$spacing-300;
+    text-align: center
+    }
+}
+.Text-samples{
+    padding:$spacing-200;
+    text-align: left;
+    .h1{
+        font-size: $font-size-1x;
+        padding:$spacing-100;
+        margin:$spacing-200;
+    }
+    .h2{
+        font-size: $font-size-2x;
+        padding:$spacing-100;
+        margin:$spacing-200;
+    }
+    .h3{
+        font-size: $font-size-3x;
+        padding:$spacing-100;
+        margin:$spacing-200;
+    }
+
+    .b1{
+        font-size:$font-size-base;
+        padding:$spacing-100;
+        margin:$spacing-200;
+    }
+    .b2{
+        font-size: $font-size-medium;
+        padding:$spacing-100;
+        margin:$spacing-200;
+    }
+    .b3{
+        font-size: $font-size-small;
+        padding:$spacing-100;
+        margin:$spacing-200; 
+    }
+    .bb1{
+        font-size: $font-size-base;
+        padding:$spacing-100;
+        margin:$spacing-200;
+        font-weight: $font-weight-heavy;
+    }
+    .bb2{
+        font-size: $font-size-medium;
+        padding:$spacing-100;
+        margin:$spacing-200;
+        font-weight: $font-weight-heavy;
+    }
+    .bb3{
+        font-size: $font-size-small;
+        padding:$spacing-100;
+        margin:$spacing-200;
+        font-weight: $font-weight-heavy;
+    }
+}
+
+.spacing-examples{
+    display:flex;
+    flex-direction: column;
+    margin-left: $spacing-400;
+    .sp-100{
+        background-color: grey;
+        height: $spacing-100;
+        width: 100px;
+        
+    }
+    .sp-200{
+        background-color: grey;
+        height: $spacing-200;
+        width: 100px;
+        
+    }
+    .sp-300{
+        background-color: grey;
+        height: $spacing-300;
+        width: 100px;
+        
+    }
+    .sp-400{
+        background-color: grey;
+        height: $spacing-400;
+        width: 100px;
+        
+    }
+    .sp-500{
+        background-color: grey;
+        height: $spacing-500;
+        width: 100px;
+        
+    }
+}
+
+
+p{
+    background-color: orange;
+    button{
+        color:rgb(158, 212, 9);
+    }
+}

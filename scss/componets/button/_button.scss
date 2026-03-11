@@ -1,0 +1,30 @@
+@use '../../foundations/' as *;
+
+.button-lg{
+    width: 200px;
+    height: 50px;
+    background-color: $colour-primary;
+    border-radius: 25px;
+    font-size: $font-size-base;
+    color: $text-colour-light;
+    border-color: $colour-secondary;
+}
+.button-md{
+    width: 150px;
+    height: 37px;
+    background-color: $colour-primary;
+    border-radius: 19px;
+    font-size: $font-size-medium;
+    color: $text-colour-light;
+    border-color: $colour-secondary;
+}
+
+.button-sm{
+    width: 100px;
+    height: 25px;
+    background-color: $colour-primary;
+    border-radius: 12px;
+    font-size: $font-size-small;
+    color: $text-colour-light;
+    border-color: $colour-secondary;
+}

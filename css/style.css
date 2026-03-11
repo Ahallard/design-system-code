@@ -1,0 +1,195 @@
+.button-lg {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(199, 4, 199);
+  border-radius: 25px;
+  font-size: 16px;
+  color: white;
+  border-color: rgb(4, 219, 4);
+}
+
+.button-md {
+  width: 150px;
+  height: 37px;
+  background-color: rgb(199, 4, 199);
+  border-radius: 19px;
+  font-size: 14px;
+  color: white;
+  border-color: rgb(4, 219, 4);
+}
+
+.button-sm {
+  width: 100px;
+  height: 25px;
+  background-color: rgb(199, 4, 199);
+  border-radius: 12px;
+  font-size: 12px;
+  color: white;
+  border-color: rgb(4, 219, 4);
+}
+
+.input-ld {
+  width: 300px;
+  height: 16px;
+  padding: 2px;
+  background-color: rgb(150, 150, 150);
+  color: white;
+}
+
+.input-md {
+  width: 225px;
+  height: 16px;
+  padding: 2px;
+  background-color: rgb(150, 150, 150);
+  color: white;
+}
+
+.input-sm {
+  width: 150px;
+  height: 16px;
+  padding: 2px;
+  background-color: rgb(150, 150, 150);
+  color: white;
+}
+
+.text-area {
+  width: 300px;
+  height: 300px;
+  padding: 2px;
+  background-color: rgb(150, 150, 150);
+  color: white;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: black;
+  padding: 4px;
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 32px;
+  color: black;
+  padding: 8px;
+  margin-left: 32px;
+}
+
+.swatch {
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+}
+.swatch .primary {
+  background-color: rgb(199, 4, 199);
+  height: 115px;
+  width: 115px;
+  margin: 4px;
+}
+.swatch .secondary {
+  background-color: rgb(4, 219, 4);
+  height: 115px;
+  width: 115px;
+  margin: 4px;
+}
+.swatch .neutral {
+  background-color: rgb(150, 150, 150);
+  height: 115px;
+  width: 115px;
+  margin: 4px;
+}
+.swatch section {
+  padding: 16px;
+  text-align: center;
+}
+
+.Text-samples {
+  padding: 8px;
+  text-align: left;
+}
+.Text-samples .h1 {
+  font-size: 32px;
+  padding: 4px;
+  margin: 8px;
+}
+.Text-samples .h2 {
+  font-size: 28px;
+  padding: 4px;
+  margin: 8px;
+}
+.Text-samples .h3 {
+  font-size: 24px;
+  padding: 4px;
+  margin: 8px;
+}
+.Text-samples .b1 {
+  font-size: 16px;
+  padding: 4px;
+  margin: 8px;
+}
+.Text-samples .b2 {
+  font-size: 14px;
+  padding: 4px;
+  margin: 8px;
+}
+.Text-samples .b3 {
+  font-size: 12px;
+  padding: 4px;
+  margin: 8px;
+}
+.Text-samples .bb1 {
+  font-size: 16px;
+  padding: 4px;
+  margin: 8px;
+  font-weight: bold;
+}
+.Text-samples .bb2 {
+  font-size: 14px;
+  padding: 4px;
+  margin: 8px;
+  font-weight: bold;
+}
+.Text-samples .bb3 {
+  font-size: 12px;
+  padding: 4px;
+  margin: 8px;
+  font-weight: bold;
+}
+
+.spacing-examples {
+  display: flex;
+  flex-direction: column;
+  margin-left: 32px;
+}
+.spacing-examples .sp-100 {
+  background-color: grey;
+  height: 4px;
+  width: 100px;
+}
+.spacing-examples .sp-200 {
+  background-color: grey;
+  height: 8px;
+  width: 100px;
+}
+.spacing-examples .sp-300 {
+  background-color: grey;
+  height: 16px;
+  width: 100px;
+}
+.spacing-examples .sp-400 {
+  background-color: grey;
+  height: 32px;
+  width: 100px;
+}
+.spacing-examples .sp-500 {
+  background-color: grey;
+  height: 64px;
+  width: 100px;
+}
+
+p {
+  background-color: orange;
+}
+p button {
+  color: rgb(158, 212, 9);
+}/*# sourceMappingURL=style.css.map */
