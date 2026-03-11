@@ -11,6 +11,9 @@ $colour-Primary-100:#f32423;
     width:115px;
     margin: $spacing-100;
 }
+@mixin left-align{
+    margin-left:$spacing-400
+}
 
 body{
     font-family: $font-sans;
@@ -24,12 +27,20 @@ h1{
     font-size:$font-size-1x;
     color: $text-colour;
     padding:$spacing-200;
-    margin-left:$spacing-400;
+    @include left-align()
+}
+h2{
+  @include left-align() 
 }
 
-.main-text{
-    margin-left:$spacing-400;
+h3{
+    @include left-align()
 }
+.main-text{
+    @include left-align()
+}
+
+
 .swatch{
     padding: $spacing-300;
     display:flex;
@@ -54,6 +65,7 @@ h1{
 .Text-samples{
     padding:$spacing-200;
     text-align: left;
+    margin-left:$spacing-400;
     .h1{
         font-size: $font-size-1x;
         padding:$spacing-100;

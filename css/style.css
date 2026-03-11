@@ -78,6 +78,14 @@ h1 {
   margin-left: 32px;
 }
 
+h2 {
+  margin-left: 32px;
+}
+
+h3 {
+  margin-left: 32px;
+}
+
 .main-text {
   margin-left: 32px;
 }
@@ -113,6 +121,7 @@ h1 {
 .Text-samples {
   padding: 8px;
   text-align: left;
+  margin-left: 32px;
 }
 .Text-samples .h1 {
   font-size: 32px;
