@@ -1,33 +1,17 @@
 @use '../../foundations/' as *;
 
-.input-ld{
+.input{
     width: 300px;
     height: 16px;
     padding: 2px;
     background-color: $colour-neutral;
-    color: $text-colour-light;
+    color: $text-colour;
 }
-
-.input-md{
-    width: 225px;
-    height: 16px;
-    padding: 2px;
-    background-color: $colour-neutral;
-    color: $text-colour-light;
-}
-
-.input-sm{
+.input-half{
     width: 150px;
     height: 16px;
     padding: 2px;
     background-color: $colour-neutral;
-    color: $text-colour-light;
+    color: $text-colour;
 }
 
-.text-area{
-    width: 300px;
-    height: 300px;
-    padding: 2px;
-    background-color: $colour-neutral;
-    color: $text-colour-light;
-}
