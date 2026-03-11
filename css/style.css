@@ -78,6 +78,10 @@ h1 {
   margin-left: 32px;
 }
 
+.main-text {
+  margin-left: 32px;
+}
+
 .swatch {
   padding: 16px;
   display: flex;
