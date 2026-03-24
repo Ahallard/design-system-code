@@ -47,6 +47,16 @@
   color: black;
 }
 
+:root {
+  --primary:#f32423;
+  --text-color:#333;
+  --spacing-md:16px;
+}
+
+button{
+  background-color: var(--primary);
+}
+
 body {
   font-family: Arial, sans-serif;
   font-size: 16px;

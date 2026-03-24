@@ -3,7 +3,14 @@
 @use 'componets/form inputs/inputs';
 
 $colour-Primary-100:#f32423;
+$text-colour-100: #333;
+$spacing-md-100: 16px;
 
+:root{
+    --primary:#{$colour-Primary-100};
+    --text-color:#{$text-colour-100};
+    --spacing-md:#{$spacing-md-100};
+}
 
 
 @mixin swatch-size{
