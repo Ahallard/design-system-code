@@ -1,0 +1,9 @@
+:root {
+  --primary:#f32423;
+  --text-color:#333;
+  --spacing-md:16px;
+}
+
+button{
+  background-color: var(--primary);
+}
